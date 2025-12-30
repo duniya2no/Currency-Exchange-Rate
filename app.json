@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Currency Live Converter",
+    "slug": "currency-live-converter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+
+    "icon": "./assets/images/currency.png",
+
+    
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B6FC0"
+    },
+
+    "assetBundlePatterns": ["**/*"],
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We use your location to show nearby currency offices.",
+        "NSCameraUsageDescription": "Camera is required for profile photo."
+      }
+    },
+
+    "android": {
+      "package": "com.alimehdi.currencyliveconverter",
+
+   
+      "icon": "./assets/images/currency.png",
+
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO"
+      ],
+
+      "adaptiveIcon": {
+        
+        "foregroundImage": "./assets/images/currency.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+
+  
+    "web": {
+      "favicon": "./assets/images/currency.png"
+    },
+
+    
+    "extra": {
+      "eas": {
+        "projectId": "3d8ad032-81a5-404b-ac11-96af19b5494d"
+      }
+    }
+  }
+}
